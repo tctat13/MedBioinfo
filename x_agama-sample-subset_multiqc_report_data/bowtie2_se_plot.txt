@@ -1,0 +1,2 @@
+Sample	SE mapped uniquely	SE not aligned
+x_agama_bowtie_merged2SC2	3994	7211290

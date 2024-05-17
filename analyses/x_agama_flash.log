@@ -1,0 +1,924 @@
+srun: job 34794922 queued and waiting for resources
+srun: job 34794922 has been allocated resources
+[FLASH] ERROR: Failed to open "./data/sra_fastq/ERR6913274_1.fastq.gz" for reading: No such file or directory
+[FLASH] FLASH did not complete successfully; exiting with failure status (1)
+srun: error: n666: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=34794922.0
+srun: job 34794928 queued and waiting for resources
+srun: job 34794928 has been allocated resources
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913306_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913306_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913306.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913306.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913306.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913306.hist
+[FLASH]     ./data/merged_pairs//ERR6913306.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 372421 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      372421
+[FLASH]     Combined pairs:   286692
+[FLASH]     Uncombined pairs: 85729
+[FLASH]     Percent combined: 76.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (81.14%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 8.541 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+srun: job 34795024 queued and waiting for resources
+srun: job 34795024 has been allocated resources
+/usr/bin/xargs: flash2: No such file or directory
+srun: error: n1559: task 0: Exited with exit code 127
+srun: launch/slurm: _step_signal: Terminating StepId=34795024.0
+srun: job 34795025 queued and waiting for resources
+srun: job 34795025 has been allocated resources
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913306_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913306_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913306.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913306.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913306.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913306.hist
+[FLASH]     ./data/merged_pairs//ERR6913306.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 372421 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      372421
+[FLASH]     Combined pairs:   286692
+[FLASH]     Uncombined pairs: 85729
+[FLASH]     Percent combined: 76.98%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (81.14%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 9.918 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913335_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913335_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913335.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913335.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913335.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913335.hist
+[FLASH]     ./data/merged_pairs//ERR6913335.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 796501 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      796501
+[FLASH]     Combined pairs:   678112
+[FLASH]     Uncombined pairs: 118389
+[FLASH]     Percent combined: 85.14%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (84.89%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 19.981 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913312_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913312_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913312.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913312.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913312.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913312.hist
+[FLASH]     ./data/merged_pairs//ERR6913312.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 500566 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      500566
+[FLASH]     Combined pairs:   431561
+[FLASH]     Uncombined pairs: 69005
+[FLASH]     Percent combined: 86.21%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (84.15%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 12.191 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913341_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913341_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913341.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913341.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913341.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913341.hist
+[FLASH]     ./data/merged_pairs//ERR6913341.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 800000 read pairs
+[FLASH] Processed 825000 read pairs
+[FLASH] Processed 850000 read pairs
+[FLASH] Processed 875000 read pairs
+[FLASH] Processed 900000 read pairs
+[FLASH] Processed 925000 read pairs
+[FLASH] Processed 950000 read pairs
+[FLASH] Processed 975000 read pairs
+[FLASH] Processed 1000000 read pairs
+[FLASH] Processed 1025000 read pairs
+[FLASH] Processed 1050000 read pairs
+[FLASH] Processed 1075000 read pairs
+[FLASH] Processed 1100000 read pairs
+[FLASH] Processed 1125000 read pairs
+[FLASH] Processed 1138285 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      1138285
+[FLASH]     Combined pairs:   960986
+[FLASH]     Uncombined pairs: 177299
+[FLASH]     Percent combined: 84.42%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (81.36%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 27.703 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913316_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913316_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913316.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913316.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913316.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913316.hist
+[FLASH]     ./data/merged_pairs//ERR6913316.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 433021 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      433021
+[FLASH]     Combined pairs:   406586
+[FLASH]     Uncombined pairs: 26435
+[FLASH]     Percent combined: 93.90%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (86.38%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 9.828 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913345_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913345_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913345.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913345.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913345.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913345.hist
+[FLASH]     ./data/merged_pairs//ERR6913345.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 800000 read pairs
+[FLASH] Processed 825000 read pairs
+[FLASH] Processed 850000 read pairs
+[FLASH] Processed 875000 read pairs
+[FLASH] Processed 900000 read pairs
+[FLASH] Processed 925000 read pairs
+[FLASH] Processed 950000 read pairs
+[FLASH] Processed 975000 read pairs
+[FLASH] Processed 1000000 read pairs
+[FLASH] Processed 1025000 read pairs
+[FLASH] Processed 1050000 read pairs
+[FLASH] Processed 1075000 read pairs
+[FLASH] Processed 1100000 read pairs
+[FLASH] Processed 1125000 read pairs
+[FLASH] Processed 1150000 read pairs
+[FLASH] Processed 1175000 read pairs
+[FLASH] Processed 1200000 read pairs
+[FLASH] Processed 1225000 read pairs
+[FLASH] Processed 1250000 read pairs
+[FLASH] Processed 1275000 read pairs
+[FLASH] Processed 1300000 read pairs
+[FLASH] Processed 1325000 read pairs
+[FLASH] Processed 1350000 read pairs
+[FLASH] Processed 1375000 read pairs
+[FLASH] Processed 1375197 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      1375197
+[FLASH]     Combined pairs:   1261137
+[FLASH]     Uncombined pairs: 114060
+[FLASH]     Percent combined: 91.71%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (75.73%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 27.677 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913105_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913105_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913105.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913105.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913105.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913105.hist
+[FLASH]     ./data/merged_pairs//ERR6913105.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 223627 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      223627
+[FLASH]     Combined pairs:   203513
+[FLASH]     Uncombined pairs: 20114
+[FLASH]     Percent combined: 91.01%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (88.18%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 5.573 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913144_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913144_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913144.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913144.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913144.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913144.hist
+[FLASH]     ./data/merged_pairs//ERR6913144.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 800000 read pairs
+[FLASH] Processed 825000 read pairs
+[FLASH] Processed 850000 read pairs
+[FLASH] Processed 875000 read pairs
+[FLASH] Processed 900000 read pairs
+[FLASH] Processed 925000 read pairs
+[FLASH] Processed 950000 read pairs
+[FLASH] Processed 975000 read pairs
+[FLASH] Processed 1000000 read pairs
+[FLASH] Processed 1025000 read pairs
+[FLASH] Processed 1050000 read pairs
+[FLASH] Processed 1075000 read pairs
+[FLASH] Processed 1100000 read pairs
+[FLASH] Processed 1117534 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      1117534
+[FLASH]     Combined pairs:   695841
+[FLASH]     Uncombined pairs: 421693
+[FLASH]     Percent combined: 62.27%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (75.99%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 29.591 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913201_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913201_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913201.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913201.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913201.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913201.hist
+[FLASH]     ./data/merged_pairs//ERR6913201.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 71374 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      71374
+[FLASH]     Combined pairs:   66426
+[FLASH]     Uncombined pairs: 4948
+[FLASH]     Percent combined: 93.07%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (81.50%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.480 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913240_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913240_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913240.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913240.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913240.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913240.hist
+[FLASH]     ./data/merged_pairs//ERR6913240.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 800000 read pairs
+[FLASH] Processed 825000 read pairs
+[FLASH] Processed 850000 read pairs
+[FLASH] Processed 875000 read pairs
+[FLASH] Processed 900000 read pairs
+[FLASH] Processed 925000 read pairs
+[FLASH] Processed 950000 read pairs
+[FLASH] Processed 975000 read pairs
+[FLASH] Processed 1000000 read pairs
+[FLASH] Processed 1025000 read pairs
+[FLASH] Processed 1050000 read pairs
+[FLASH] Processed 1075000 read pairs
+[FLASH] Processed 1100000 read pairs
+[FLASH] Processed 1125000 read pairs
+[FLASH] Processed 1150000 read pairs
+[FLASH] Processed 1175000 read pairs
+[FLASH] Processed 1190394 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      1190394
+[FLASH]     Combined pairs:   1050164
+[FLASH]     Uncombined pairs: 140230
+[FLASH]     Percent combined: 88.22%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (88.49%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 27.972 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913106_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913106_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913106.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913106.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913106.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913106.hist
+[FLASH]     ./data/merged_pairs//ERR6913106.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 635809 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      635809
+[FLASH]     Combined pairs:   527135
+[FLASH]     Uncombined pairs: 108674
+[FLASH]     Percent combined: 82.91%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (85.06%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 15.247 seconds elapsed
+[FLASH] Finished with 1 warning (see above)
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     ./data/sra_fastq/ERR6913202_1.fastq.gz
+[FLASH]     ./data/sra_fastq/ERR6913202_2.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./data/merged_pairs//ERR6913202.extendedFrags.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913202.notCombined_1.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913202.notCombined_2.fastq.gz
+[FLASH]     ./data/merged_pairs//ERR6913202.hist
+[FLASH]     ./data/merged_pairs//ERR6913202.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Max overlap:           65
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      2
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 2 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 708278 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      708278
+[FLASH]     Combined pairs:   647131
+[FLASH]     Uncombined pairs: 61147
+[FLASH]     Percent combined: 91.37%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH] WARNING: An unexpectedly high proportion of combined pairs (90.33%)
+overlapped by more than 65 bp, the --max-overlap (-M) parameter.  Consider
+increasing this parameter.  (As-is, FLASH is penalizing overlaps longer than
+65 bp when considering them for possible combining!)
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 14.683 seconds elapsed
+[FLASH] Finished with 1 warning (see above)

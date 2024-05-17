@@ -1,0 +1,12 @@
+[2024-05-17 16:23:50,986] multiqc.core.update_config                         [INFO   ]  Report title: x_agama sample subset
+[2024-05-17 16:23:51,187] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.22.1 now available!
+[2024-05-17 16:23:51,189] multiqc.core.file_search                           [INFO   ]  Search path: /proj/applied_bioinformatics/users/x_agama/MedBioinfo/data/merged_pairs
+[2024-05-17 16:23:51,189] multiqc.core.file_search                           [INFO   ]  Search path: /proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc
+[2024-05-17 16:23:51,189] multiqc.core.file_search                           [INFO   ]  Search path: /proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/x_agama_flash.log
+[2024-05-17 16:23:51,189] multiqc.core.file_search                           [INFO   ]  Search path: /proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/bowtie
+[2024-05-17 16:23:52,579] multiqc.modules.bowtie2.bowtie2                    [INFO   ]  Found 1 reports
+[2024-05-17 16:23:53,479] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 24 reports
+[2024-05-17 16:23:53,589] multiqc.modules.flash.flash                        [INFO   ]  Found 12 log reports
+[2024-05-17 16:23:53,781] multiqc.core.write_results                         [INFO   ]  Data        : x_agama-sample-subset_multiqc_report_data
+[2024-05-17 16:23:54,004] multiqc.core.write_results                         [INFO   ]  Report      : x_agama-sample-subset_multiqc_report.html
+[2024-05-17 16:23:54,007] multiqc.multiqc                                    [INFO   ]  MultiQC complete

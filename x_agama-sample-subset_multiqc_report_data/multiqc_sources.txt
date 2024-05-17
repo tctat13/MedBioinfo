@@ -1,0 +1,27 @@
+Module	Section	Sample Name	Source
+Bowtie 2 / HiSAT2	all_sections	x_agama_bowtie_merged2SC2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/bowtie/x_agama_bowtie_merged2SC2.log
+FastQC	all_sections	ERR6913345_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913345_1_fastqc.zip
+FastQC	all_sections	ERR6913306_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913306_1_fastqc.zip
+FastQC	all_sections	ERR6913202_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913202_1_fastqc.zip
+FastQC	all_sections	ERR6913316_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913316_2_fastqc.zip
+FastQC	all_sections	ERR6913144_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913144_1_fastqc.zip
+FastQC	all_sections	ERR6913335_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913335_1_fastqc.zip
+FastQC	all_sections	ERR6913240_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913240_1_fastqc.zip
+FastQC	all_sections	ERR6913144_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913144_2_fastqc.zip
+FastQC	all_sections	ERR6913240_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913240_2_fastqc.zip
+FastQC	all_sections	ERR6913105_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913105_1_fastqc.zip
+FastQC	all_sections	ERR6913306_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913306_2_fastqc.zip
+FastQC	all_sections	ERR6913316_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913316_1_fastqc.zip
+FastQC	all_sections	ERR6913335_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913335_2_fastqc.zip
+FastQC	all_sections	ERR6913312_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913312_1_fastqc.zip
+FastQC	all_sections	ERR6913105_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913105_2_fastqc.zip
+FastQC	all_sections	ERR6913341_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913341_1_fastqc.zip
+FastQC	all_sections	ERR6913106_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913106_2_fastqc.zip
+FastQC	all_sections	ERR6913345_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913345_2_fastqc.zip
+FastQC	all_sections	ERR6913312_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913312_2_fastqc.zip
+FastQC	all_sections	ERR6913341_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913341_2_fastqc.zip
+FastQC	all_sections	ERR6913201_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913201_1_fastqc.zip
+FastQC	all_sections	ERR6913201_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913201_2_fastqc.zip
+FastQC	all_sections	ERR6913202_2	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913202_2_fastqc.zip
+FastQC	all_sections	ERR6913106_1	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/fastqc/ERR6913106_1_fastqc.zip
+FLASh	all_sections	x_agama_flash	/proj/applied_bioinformatics/users/x_agama/MedBioinfo/analyses/x_agama_flash.log
