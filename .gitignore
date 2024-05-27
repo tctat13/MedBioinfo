@@ -1,3 +1,4 @@
 *.sra
 .ipynb_checkpoints
-
+data/*
+docs/*
