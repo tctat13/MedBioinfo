@@ -3,3 +3,5 @@
 data/*
 docs/*
 !docs/my_notes/
+analyses/*
+multiQC_results_multiqc_report_data/*
