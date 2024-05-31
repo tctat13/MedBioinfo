@@ -21,7 +21,7 @@ workflow{
 	KT_IMPORT_TEXT(SED_KRONA.out.sed_krona_report, ch_input)
 	
 	// assembling reports
-	MULTIQC (FASTQC.out.qc_zip.collect(), FLASH2.out.flash2_log.collect(), BOWTIE2.out.bowtie2_log.collect()) // multiqc will wait for all the fastqc files to be generated, this is archieved by using collect() method
+	MULTIQC (FASTQC.out.qc_zip.collect(), FLASH2.out.flash2_log.collect(), BOWTIE2.out.bowtie2_log.collect(), KRAKEN2.out.kraken2_report_dir.collect()) // multiqc will wait for all the fastqc files to be generated, this is archieved by using collect() method
 
 }
 
@@ -135,6 +135,7 @@ process KRAKEN2{
 	output:
 	path "${id}_kraken2_output.txt", emit: kraken2_output
 	path "${id}_kraken2_report.txt", emit: kraken2_report
+	path "*", emit: kraken2_report_dir
 }
 
 process BRACKEN{
@@ -222,6 +223,7 @@ process MULTIQC {
 	path(fastqc_zips) 
 	path(bowtie2_log)
 	path(flash2_log)
+	path(kraken2_report_dir)
 
 	// directives
 	container 'https://depot.galaxyproject.org/singularity/multiqc:1.9--pyh9f0ad1d_0'
