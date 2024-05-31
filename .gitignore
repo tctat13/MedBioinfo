@@ -8,3 +8,7 @@ multiQC_results_multiqc_report_data/*
 nextflow/.nextflow*
 nf_metagenomics/.nextflow.log*
 nf_tutorial/
+nf_metagenomics/
+!nf_metagenomics/nextflow.config
+!nf_metagenomics/main.nf
+!nf_metagenomics/params.yml
