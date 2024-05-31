@@ -5,3 +5,6 @@ docs/*
 !docs/my_notes/
 analyses/*
 multiQC_results_multiqc_report_data/*
+nextflow/.nextflow*
+nf_metagenomics/.nextflow.log*
+nf_tutorial/
